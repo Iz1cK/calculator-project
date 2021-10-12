@@ -1,0 +1,22 @@
+.calcWindow{
+    margin: auto;
+    width: 25vw;
+    height: 50vh;
+    border: 1px solid;
+}
+
+.numbersWindow{
+    max-width: 200px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.numButton{
+    text-align: center;
+}
+
+.evalButton{
+    text-align: center;
+}
