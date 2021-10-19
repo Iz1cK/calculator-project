@@ -1,22 +1,44 @@
-.calcWindow{
-    margin: auto;
-    width: 25vw;
-    height: 50vh;
-    border: 1px solid;
+.calcWindow {
+  padding: 35px;
+  border-radius: 1em;
+  width: 408px;
+  margin: auto;
+  background-color: #191b28;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 }
 
-.numbersWindow{
-    max-width: 200px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
+.numbersWindow {
+  width: 100%;
+  display: flex;
+  border: 2px solid rgba(255, 255, 255, 0.8);
+  flex-wrap: wrap;
 }
 
-.numButton{
-    text-align: center;
+.buttons{
+  text-align: center;
+  vertical-align: middle;
+  font-size: 35px;
+  line-height: 100px;
+  width: 100px;
+  height: 100px;
+  background-color: white;
+  border: 1px solid rgba(25, 27, 40, 0.8);
 }
 
-.evalButton{
-    text-align: center;
+.buttons:nth-of-type(2), .buttons:nth-of-type(1){
+  width:49.51%;
+}
+
+.outputSpan {
+  text-align: center;
+  color: white;
+  vertical-align: middle;
+  line-height: 75px;
+  height: 75px;
+  font-size: 35px;
+  font-weight: 600;
+  padding: 10px 0;
+  background-color: rgba(255, 255, 255, 0.25);
+  border-radius: 5%;
+  margin-bottom: 5px;
 }
